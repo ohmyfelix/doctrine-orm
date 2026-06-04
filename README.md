@@ -27,21 +27,14 @@ Integration of [Doctrine ORM](https://www.doctrine-project.org/projects/orm.html
 | dev         | `^0.11` | `master` | `3.3+` | `>=8.2` |
 | stable      | `^0.10`  | `master` | `3.3+` | `>=8.2` |
 
-## Usage
-
-To install the latest version of `nettrine/orm` use [Composer](https://getcomposer.org).
-
-```
-composer require nettrine/orm
-```
-
-## Content
+## Contents
 
 - [Installation](#installation)
 - [Configuration](#configuration)
   - [Minimal configuration](#minimal-configuration)
   - [Advanced configuration](#advanced-configuration)
   - [Auto configuration](#auto-configuration)
+    - [Lazy Native Objects](#lazy-native-objects)
   - [EntityManager](#entitymanager)
   - [Caching](#caching)
   - [Mapping](#mapping)
@@ -62,9 +55,10 @@ composer require nettrine/orm
   - [Multiple Connections](#multiple-connections)
   - [DBAL](#dbal)
   - [Console](#console)
-- [Static analyses](#static-analyses)
+- [Static Analysis](#static-analysis)
 - [Troubleshooting](#troubleshooting)
 - [Examples](#examples)
+- [Development](#development)
 
 ## Installation
 
@@ -1020,9 +1014,9 @@ extensions:
 
 Since this moment when you type `bin/console`, there'll be registered commands from Doctrine ORM.
 
-![Console Commands](https://raw.githubusercontent.com/nettrine/orm/master/.docs/assets/console.png)
+![Console Commands](.docs/assets/console.png)
 
-## Static analyses
+## Static Analysis
 
 You can use [PHPStan](https://github.com/phpstan) to analyze your code.
 
@@ -1082,13 +1076,13 @@ vendor/bin/phpstan analyse -c phpstan.neon
 ## Examples
 
 > [!TIP]
-> Take a look at more examples in [contributte/doctrine](https://github.com/contributte/doctrine/tree/master/.docs).
+> Take a look at more examples on [contributte.org](https://contributte.org/examples.html).
 
 ## Development
 
 See [how to contribute](https://contributte.org/contributing.html) to this package.
 
-This package is currently maintaining by these authors.
+This package is currently maintained by these authors.
 
 <a href="https://github.com/f3l1x">
   <img width="80" height="80" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=80">
