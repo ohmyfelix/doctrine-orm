@@ -18,6 +18,15 @@
 Website 🚀 <a href="https://contributte.org">contributte.org</a> | Contact 👨🏻‍💻 <a href="https://f3l1x.io">f3l1x.io</a> | Twitter 🐦 <a href="https://twitter.com/contributte">@contributte</a>
 </p>
 
+Integration of [Doctrine ORM](https://www.doctrine-project.org/projects/orm.html) for Nette Framework. It registers Doctrine ORM services and configuration for Nette applications.
+
+## Versions
+
+| State       | Version | Branch   | Nette  | PHP     |
+|-------------|---------|----------|--------|---------|
+| dev         | `^0.11` | `master` | `3.3+` | `>=8.2` |
+| stable      | `^0.10`  | `master` | `3.3+` | `>=8.2` |
+
 ## Usage
 
 To install the latest version of `nettrine/orm` use [Composer](https://getcomposer.org).
@@ -25,10 +34,6 @@ To install the latest version of `nettrine/orm` use [Composer](https://getcompos
 ```
 composer require nettrine/orm
 ```
-
-## Documentation
-
-Integration of [Doctrine ORM](https://www.doctrine-project.org/projects/orm.html) for Nette Framework.
 
 ## Content
 
@@ -1078,13 +1083,6 @@ vendor/bin/phpstan analyse -c phpstan.neon
 
 > [!TIP]
 > Take a look at more examples in [contributte/doctrine](https://github.com/contributte/doctrine/tree/master/.docs).
-
-## Versions
-
-| State       | Version | Branch   | Nette  | PHP     |
-|-------------|---------|----------|--------|---------|
-| dev         | `^0.11` | `master` | `3.3+` | `>=8.2` |
-| stable      | `^0.10`  | `master` | `3.3+` | `>=8.2` |
 
 ## Development
 
