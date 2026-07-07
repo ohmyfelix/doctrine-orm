@@ -1026,7 +1026,7 @@ You can use [PHPStan](https://github.com/phpstan) to analyze your code.
 composer require --dev phpstan/phpstan phpstan/phpstan-doctrine
 ```
 
-2. Create ORM loader for PHPStan, e.q. `phpstan-doctrine.php`.
+2. Create ORM loader for PHPStan, e.g. `phpstan-doctrine.php`.
 
 ```php
 <?php declare(strict_types = 1);
@@ -1069,7 +1069,7 @@ vendor/bin/phpstan analyse -c phpstan.neon
 
 ## Troubleshooting
 
-1. Are you looking for custom types? You can register custom types in DBAL, see [Nettrine DBAL](https://github.com/contributte/doctrine-dbal/blob/master/.docs/README.md#types).
+1. Are you looking for custom types? Register them in DBAL, see [Nettrine DBAL](https://github.com/contributte/doctrine-dbal#types).
 
 2. You have to configure entity mapping (for example attributes), otherwise you will get `It's a requirement to specify a Metadata Driver` error.
 
